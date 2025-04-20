@@ -3,6 +3,13 @@
 
 
 /*
+ * @author Laura Kuo
+ * @studentID 9082113458
+ * @author Henry Pruski
+ * @studentID 9083254160
+ * @author Yi Wei
+ * @studentID 9084811984
+ * 
  * Deletes records from a specified relation.
  *
  * Returns:

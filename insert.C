@@ -2,6 +2,13 @@
 #include "query.h"
 
 /*
+ * @author Laura Kuo
+ * @studentID 9082113458
+ * @author Henry Pruski
+ * @studentID 9083254160
+ * @author Yi Wei
+ * @studentID 9084811984
+ * 
  * Inserts a record into the specified relation.
  *
  * Returns:

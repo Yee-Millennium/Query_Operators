@@ -1,23 +1,29 @@
 #include "catalog.h"
 #include "query.h"
 
-
-// forward declaration
-const Status ScanSelect(const string & result, 
-			const int projCnt, 
-			const AttrDesc projNames[],
-			const AttrDesc *attrDesc, 
-			const Operator op, 
-			const char *filter,
-			const int reclen);
-
 /*
+ * @author Laura Kuo
+ * @studentID 9082113458
+ * @author Henry Pruski
+ * @studentID 9083254160
+ * @author Yi Wei
+ * @studentID 9084811984
+ * 
  * Selects records from the specified relation.
  *
  * Returns:
  * 	OK on success
  * 	an error code otherwise
  */
+
+// forward declaration
+const Status ScanSelect(const string & result, 
+    const int projCnt, 
+    const AttrDesc projNames[],
+    const AttrDesc *attrDesc, 
+    const Operator op, 
+    const char *filter,
+    const int reclen);
 
 const Status QU_Select(const string & result, 
 		       const int projCnt, 
